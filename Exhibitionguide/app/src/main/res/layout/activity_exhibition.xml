@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExhibitionActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="512dp"
+        android:text="Select exhibition"
+        android:textColor="#303F9F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/exhibitions_group"
+        android:layout_width="290dp"
+        android:layout_height="297dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RadioButton
+            android:id="@+id/art_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:drawableRight="@drawable/art_gallery"
+            android:text="@string/art_gallery" />
+
+        <RadioButton
+            android:id="@+id/wwi_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/wwi_gallery"
+            android:text="@string/wwi_exhibition" />
+
+        <RadioButton
+            android:id="@+id/exploring_the_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/exporing_the_space"
+            android:text="@string/exploring_the_space" />
+
+        <RadioButton
+            android:id="@+id/visual_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/visual_show"
+            android:text="@string/visual_show" />
+    </RadioGroup>
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartoonsQ2Activity">
+
+    <RadioGroup
+        android:id="@+id/radioGroupCartoons"
+        android:layout_width="232dp"
+        android:layout_height="222dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" >
+
+        <RadioButton
+            android:id="@+id/cartoons1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/cartoons2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/cartoons3Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Cartoons2Q"
+        android:layout_width="274dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="26dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupCartoons"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

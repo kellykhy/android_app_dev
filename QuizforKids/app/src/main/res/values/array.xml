@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array0">
+        <item>ANIMALS</item>    <!-- 0 -->
+        <item>CARTOONS</item>    <!-- 1 -->
+    </array>
+
+    <array name="animals">
+        <item>dugong</item>
+        <item>dolphin</item>
+        <item>elephant</item>
+        <item>koala</item>
+        <item>turtle</item>
+        <item>panda</item>
+        <item>snake</item>
+        <item>tiger</item>
+        <item>kangaroo</item>
+        <item>monkey</item>
+    </array>
+
+    <array name="cartoons_questions">
+        <item>What is Spider-Man’s secret identity?</item>
+        <item>Who is Mickey Mouse’s girlfriend?</item>
+        <item>Who is SpongeBob SquarePants’s pet sea snail?</item>
+        <item>What is Pooh’s favorite food?</item>
+        <item>What is the name of Simpsons family’s pet dog?</item>
+        <item>Which animal is Tom and Jerry?</item>
+        <item>What does Dora have to say to stop Swiper, the thieving fox?</item>
+        <item>What is Doraemon’s favorite food?</item>
+        <item>Which type of fish is Nemo?</item>
+        <item>Which setting is the film ‘Moana’ based on?</item>
+    </array>
+
+    <array name="cartoons_option1">
+        <item>Peter Parker</item>
+        <item>Minnie Mouse</item>
+        <item>Gary</item>
+        <item>Honey</item>
+        <item>Santa’s Little Helper</item>
+        <item>Cat and mouse</item>
+        <item>"Swiper no swiping" </item>
+        <item>Dorayaki</item>
+        <item>Clownfish</item>
+        <item>Polynesia</item>
+    </array>
+    <array name="cartoons_option2">
+        <item>Peter Pancake</item>
+        <item>Donald Duck</item>
+        <item>Genie</item>
+        <item>Pork</item>
+        <item>Angel’s Little Helper</item>
+        <item>Mouse and cat</item>
+        <item>"Swiper no" </item>
+        <item>Lemon</item>
+        <item>Goldfish</item>
+        <item>Africa</item>
+    </array>
+    <array name="cartoons_option3">
+        <item>Pan Cake</item>
+        <item>Ugly Duckling</item>
+        <item>Winnie</item>
+        <item>Chicken</item>
+        <item>Santa’s Little Son</item>
+        <item>Cat and cat</item>
+        <item>"Swiper" </item>
+        <item>Orange juice</item>
+        <item>Salmon</item>
+        <item>America</item>
+    </array>
+    <array name="cartoon_answer">
+        <item>"1"</item>
+        <item>"1"</item>
+        <item>"1"</item>
+        <item>"1"</item>
+        <item>"1"</item>
+        <item>"1"</item>
+        <item>"1"</item>
+        <item>"1"</item>
+        <item>"1"</item>
+        <item>"1"</item>
+    </array>
+</resources>

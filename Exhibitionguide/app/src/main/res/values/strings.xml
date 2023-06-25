@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Exhibition guide</string>
+    <string name="art_gallery">Art Gallery</string>
+    <string name="wwi_exhibition">WWI exhibition</string>
+    <string name="exploring_the_space">Exploring the space</string>
+    <string name="visual_show">Visual Show</string>
+    <string name="title_activity_array">array</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="display_total_charge">Exhibition: %1$s\nDay: %2$s, Time: %3$s\nNumber of visitors: %4$d\nTotal amount: &#36;%5$d</string>
+    <string name="information">The calculations for the charges are based on the:\n -Exhibition\n -Day and time in the week (weekdays or weekends)
+    \n -Additional 10% discount for 4+ visitors</string>
+</resources>

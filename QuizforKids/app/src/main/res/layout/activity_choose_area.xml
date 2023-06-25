@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseAreaActivity">
+
+    <Button
+        android:id="@+id/previousAttemptsButton2"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="132dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="previous attempts"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="460dp"
+        android:text="Choose an area"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Spinner
+        android:id="@+id/area_spinner"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="392dp"
+        android:contentDescription="@string/app_name"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="276dp"
+        android:text="Start the quiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="188dp"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:text="Log out"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/changePwButton"
+        android:layout_width="202dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Change password"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

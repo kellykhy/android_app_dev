@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array0">
+        <item>SUNDAY</item>    <!-- 0 -->
+        <item>MONDAY</item>    <!-- 1 -->
+        <item>TUESDAY</item>   <!-- 2 -->
+        <item>WEDNESDAY</item> <!-- 3 -->
+        <item>THURSDAY</item>  <!-- 4 -->
+        <item>FRIDAY</item>    <!-- 5 -->
+        <item>SATURDAY</item>  <!-- 6 -->
+    </array>
+
+    <array name="array1">
+        <item>09:00~10:30</item>  <!-- 0 -->
+        <item>09:30~11:00</item>  <!-- 1 -->
+        <item>10:00~11:30</item>  <!-- 2 -->
+        <item>10:30~12:00</item>  <!-- 3 -->
+        <item>11:00~12:30</item>  <!-- 4 -->
+        <item>11:30~13:00</item>  <!-- 5 -->
+        <item>12:00~13:30</item>  <!-- 6 -->
+        <item>12:30~14:00</item>  <!-- 7 -->
+        <item>13:00~14:30</item>  <!-- 8 -->
+        <item>13:30~15:00</item>  <!-- 9 -->
+        <item>14:00~15:30</item> <!-- 10 -->
+        <item>14:30~16:00</item> <!-- 11 -->
+        <item>15:00~16:30</item> <!-- 12 -->
+        <item>15:30~17:00</item> <!-- 13 -->
+        <item>16:00~17:30</item> <!-- 14 -->
+        <item>16:30~18:00</item> <!-- 15 -->
+        <item>17:00~18:30</item> <!-- 16 -->
+        <item>17:30~19:00</item> <!-- 17 -->
+        <item>18:00~19:30</item> <!-- 18 -->
+        <item>18:30~20:00</item> <!-- 19 -->
+        <item>19:00~20:30</item> <!-- 20 -->
+        <item>19:30~21:00</item> <!-- 21 -->
+    </array>
+    <array name="array2">
+        <item>15:00~17:00</item>  <!-- 0 -->
+        <item>17:00~19:00</item>  <!-- 1 -->
+        <item>19:00~21:00</item>  <!-- 2 -->
+    </array>
+    <array name="array3">
+        <item>"Art Gallery"</item>        <!-- 0 -->
+        <item>WWI exhibition</item>       <!-- 1 -->
+        <item>Exploring the space</item>  <!-- 2 -->
+        <item>Visual show</item>          <!-- 3 -->
+    </array>
+</resources>

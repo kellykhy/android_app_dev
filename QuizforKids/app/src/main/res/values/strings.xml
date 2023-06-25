@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quiz for Kids</string>
+    <string name="information">
+    First, select the area of quiz you\'d like to try.\n
+    Second, start solving four quizes until you see the result.\n
+    After solving all the quizes, you can either choose to start again, to log off, or to see the previous attempts of yours.\n
+    Your points are calculated by 3*(number of correct questions)-(number of incorrect questions).\n </string>
+</resources>
